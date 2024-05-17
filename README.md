@@ -79,7 +79,7 @@ python gradio_demo.py
 请参考论文实验部分说明。
 
 
-## Citing
+## 引用
 
 ```
 @misc{tcmchat,
@@ -92,6 +92,5 @@ python gradio_demo.py
     year = {2024},
     copyright = {l}
 }
-
 
 ```
