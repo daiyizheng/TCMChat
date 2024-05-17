@@ -10,9 +10,19 @@
 
 ## News
 
-## Usage
+[2024-5-17] huggingface 开源模型权重
 
-### Install
+
+
+
+## 应用
+
+### 安装
+
+```
+git clone https://github.com/daiyizheng/TCMChat
+cd TCMChat
+```
 
 首先安装依赖包，python环境建议3.10+
 
@@ -20,4 +30,68 @@
 pip install -r requirements.txt
 ```
 
+
+### 权重下载
+
+- [TCMChat](https://huggingface.co/daiyizheng/TCMChat): 基于baichuan2-7B-Chat的中药、方剂知识问答与推荐。
+
+
+### 推理
+
+#### 命令行测试
+
+```
+python cli_infer.py \
+--model_name_or_path /your/model/path \
+--model_type  chat
+```
+
+
+#### Web页面测试
+
+```
+python gradio_demo.py
+```
+
+
+
+### 重新训练
+
+#### 数据集下载
+
+暂未开源
+
+
+#### 预训练
+
+暂未开源
+
+
+#### 微调
+
+暂未开源
+
+
+
+
+### 训练细节
+
+请参考论文实验部分说明。
+
+
 ## Citing
+
+```
+@misc{tcmchat,
+    doi = {xxx},
+    url = {xxx},
+    author = {Yizheng Dai},
+    keywords = {xxx},
+    title = {TCMChat: Traditional Chinese Medicine Recommendation System based on Large Language Model},
+    publisher = {arXiv},
+    year = {2024},
+    copyright = {l}
+}
+
+
+```
